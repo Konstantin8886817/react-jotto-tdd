@@ -11,7 +11,7 @@ const setup = (initialState={}, secretWord = 'party') => {
 }
 
 describe('render', () => {
-    describe('success id true', () => {
+    describe('success is true', () => {
         let wrapper;
         beforeEach(() => {
             wrapper = setup({success: true});
